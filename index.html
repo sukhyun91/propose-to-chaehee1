@@ -1,13 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To. 채희에게 💌</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To. 채희에게</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('./background.jpg') center/cover no-repeat fixed;
+      filter: blur(2px);
+      font-family: sans-serif;
+    }
+    .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255, 255, 255, 0.8);
+      padding: 2rem;
+      border-radius: 1rem;
+      width: 80%;
+      max-width: 500px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>To. 사랑하는 채희에게</h1>
+    <p>오늘은 특별한 하루야.<br/>우리의 미래에 대해 한 번 상상해볼래? 🌸</p>
+    <p>이 모든 상상들이 현실이 되기를 바래.<br/><strong>나랑 결혼해줄래?</strong></p>
+  </div>
+</body>
 </html>
